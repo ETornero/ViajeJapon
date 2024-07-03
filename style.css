@@ -11,6 +11,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-size: 15px;
 
     padding: 0;
     margin: 0;
@@ -29,7 +30,7 @@ body {
 }
 
 .locations-selector {
-    display: none; /*cambiar*/
+    display: flex; /*cambiar*/
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -79,8 +80,13 @@ body {
 }
 
 .location .title {
-    font-size: 45px;
+    font-size: 85px;
     font-weight: 600;
+}
+
+.location .subtitle {
+    font-size: 35px;
+    font-weight: 400;
 }
 
 .locations {
@@ -123,21 +129,25 @@ body {
     justify-content: center;
     align-items: ce;
     flex-direction: row-reverse;
-    gap: 10px;
+    gap: 20px;
 }
 
 .interes-point .title p {
-    font-size: 20px;
+    font-size: 45px;
     font-weight: 600;
 }
 
 .interes-point .title img {
-    width: 20px;
-    height: 20px;
+    width: 45px;
+    height: 45px;
 }
 
 .interes-point ul {
-    padding: 10px 0px 10px 20px;
+    padding: 10px 0px 10px 40px;
+}
+
+.interes-point li {
+    margin-bottom: 10px;
 }
 
 .interes-point > img {
@@ -145,25 +155,26 @@ body {
     height: auto;
     border-radius: 20px;
     margin: 20px 0px 0px 0px;
-    box-shadow: 0px 0px 5px var(--black-color);
+    box-shadow: 0px 0px 10px var(--black-color);
 }
 
 .interes-point .maps {
     display: flex;
     justify-content: right;
     align-items: center;
-    gap: 5px;
+    gap: 15px;
     width: 100%;
     text-align: right;
     margin: 5px 0px 0px -5px;
     text-decoration: none;
     color: var(--black-color);
     font-weight: 600;
+    font-size: 35px;
     padding-bottom: 3px;
 }
 
 .interes-point .maps img {
-    margin-top: 3px;
-    width: 20px;
-    height: 20px;
+    margin-top: 7px;
+    width: 40px;
+    height: 40px;
 }
