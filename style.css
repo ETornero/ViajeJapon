@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #ff0000;
+    --black-color: #000000;
+}
+
+* {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px 20px;
+    overflow-x: hidden;
+}
+
+.locations-selector {
+    display: none; /*cambiar*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.locations-selector .location {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 33%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px var(--black-color);
+    overflow: hidden;
+    color: var(--primary-color);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.location .bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(0.33) blur(0.66px);
+    z-index: -1;
+}
+
+.bg-tokio {
+    background-image: url('/img/tokio.webp');
+}
+
+.bg-kioto {
+    background-image: url('/img/kioto.webp');
+}
+
+.bg-osaka {
+    background-image: url('/img/osaka.webp');
+}
+
+.location .title {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;    
+}
+
+.locations .location {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px var(--black-color);
+    overflow: hidden;
+    color: var(--primary-color);
+    padding: 20px;
+}
+
+.interes-point {
+    padding: 20px 10px 0px 10px;
+    margin-top: 10px;
+    border-top: 1px var(--black-color) dashed;
+}
+
+.interes-point .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.interes-point .title .icones {
+    display: flex;
+    justify-content: center;
+    align-items: ce;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.interes-point .title p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.interes-point .title img {
+    width: 20px;
+    height: 20px;
+}
+
+.interes-point ul {
+    padding: 10px 0px 10px 20px;
+}
+
+.interes-point > img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 20px 0px 0px 0px;
+    box-shadow: 0px 0px 5px var(--black-color);
+}
+
+.interes-point .maps {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    text-align: right;
+    margin: 5px 0px 0px -5px;
+    text-decoration: none;
+    color: var(--black-color);
+    font-weight: 600;
+    padding-bottom: 3px;
+}
+
+.interes-point .maps img {
+    margin-top: 3px;
+    width: 20px;
+    height: 20px;
+}
