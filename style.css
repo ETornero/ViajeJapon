@@ -179,10 +179,10 @@ body {
     height: 40px;
 }
 
-.title span {
-    font-size: 45px;
-    font-weight: 600;
-    color: var(--secondary-color);
+span {
+    font-size: 45px !important;
+    font-weight: 600 !important;
+    color: var(--secondary-color) !important;
 }
 
 b {
