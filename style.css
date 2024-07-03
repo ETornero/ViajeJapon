@@ -67,15 +67,15 @@ body {
 }
 
 .bg-tokio {
-    background-image: url('/img/tokio.webp');
+    background-image: url('img/tokio.webp');
 }
 
 .bg-kioto {
-    background-image: url('/img/kioto.webp');
+    background-image: url('img/kioto.webp');
 }
 
 .bg-osaka {
-    background-image: url('/img/osaka.webp');
+    background-image: url('img/osaka.webp');
 }
 
 .location .title {
