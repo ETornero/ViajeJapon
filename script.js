@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Create buttons for each slide
     slides.forEach((slide, index) => {
         const button = document.createElement('div');
+        button.classList.add('circle')
         button.addEventListener('click', () => {
             moveToSlide(index);
         });
