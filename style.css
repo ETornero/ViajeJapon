@@ -21,6 +21,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
 body {
     width: 100vw;
     height: 100lvh;
@@ -59,7 +64,10 @@ body {
 }
 
 #main-menu .item {
+    display: block;
     padding: 15px 25px;
+    text-align: center;
+    font-weight: 700;
 }
 
 #main-menu .item:hover, #main-menu .item:focus {
