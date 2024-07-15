@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 
 :root {
-    --primary-color: #ffffff;
+    --primary-color: #ff0000;
     --secondary-color: #ff0000;
     --black-color: #000;
     --dark-color: #222;
@@ -45,7 +45,7 @@ body {
 
 #main-menu {
     position: absolute;
-    top: -9999px;
+    top: -500px;
     left: 0;
     width: 100%;
     background-color: var(--white-color);
@@ -81,6 +81,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px 30px;
 }
 
 #home-section .locations {
@@ -89,4 +90,77 @@ body {
     background-color: red;
     border-radius: 5px;
     background: url('./img/tokio.webp') no-repeat center center/cover;
+}
+
+#home-section .carrusel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.carrusel .items {
+    width: 100%;
+    height: 95%;
+}
+
+.carrusel .item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 50px 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.carrusel .item .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-image: url('./img/tokio.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(50%) blur(2px);
+    z-index: 0;
+}
+
+.carrusel .item .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.carrusel .item .content .title {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.carrusel .item .content .subtitle {
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--light-color);
+}
+
+.carrusel .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    height: 5%;
 }
