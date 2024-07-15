@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const mainMenu = document.getElementById('main-menu');
 
     burgerButton.addEventListener('click', () => {
-        
         mainMenu.classList.toggle('opened');
     });
 
@@ -16,9 +15,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Create buttons for each slide
     slides.forEach((slide, index) => {
         const button = document.createElement('div');
-        button.classList.add('circle')
-        button.addEventListener('click', () => {
-            moveToSlide(index);
+        button.classList.add('circle');
+        button.addEventListener('click', (event) => {
+            event.stopPropagation();
         });
         buttonsContainer.appendChild(button);
     });
@@ -40,21 +39,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let startX = 0;
     let endX = 0;
+    let isSwiping = false;
 
     // Touch event listeners for mobile swipe functionality
     items.addEventListener('touchstart', (e) => {
         startX = e.touches[0].clientX;
+        isSwiping = false;
     });
 
     items.addEventListener('touchmove', (e) => {
         endX = e.touches[0].clientX;
+        isSwiping = true;
     });
 
     items.addEventListener('touchend', () => {
-        if (startX > endX + 50) {
-            moveToSlide(currentIndex + 1);
-        } else if (startX < endX - 50) {
-            moveToSlide(currentIndex - 1);
+        if (isSwiping) {
+            if (startX > endX + 50) {
+                moveToSlide(currentIndex + 1);
+            } else if (startX < endX - 50) {
+                moveToSlide(currentIndex - 1);
+            }
         }
+    });
+
+    // Prevent click event from triggering moveToSlide
+    slides.forEach(slide => {
+        slide.addEventListener('click', (event) => {
+            event.stopPropagation();
+        });
     });
 });
