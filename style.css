@@ -3,7 +3,10 @@
 :root {
     --primary-color: #ffffff;
     --secondary-color: #ff0000;
-    --black-color: #000000;
+    --black-color: #000;
+    --dark-color: #222;
+    --white-color: #fff;
+    --light-color: #eee;
 }
 
 * {
@@ -11,7 +14,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 12px;
+    font-size: 16px;
 
     padding: 0;
     margin: 0;
@@ -19,173 +22,75 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
     width: 100vw;
     height: 100vh;
-    padding: 20px 20px;
-    overflow-x: hidden;
+    background: url('./img/homeBackground.jpg') no-repeat center center/cover;
+    backdrop-filter: blur(5px) brightness(45%);
 }
 
-.locations-selector {
-    display: flex; /*cambiar*/
-    justify-content: center;
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
     align-items: center;
-    flex-direction: column;
-    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+    height: 66px;
+    padding: 10px 25px;
+    background-color: var(--white-color);
+    box-shadow: 0px 0px 10px var(--black-color);
+    z-index: 999;
+}
+
+#main-menu {
+    position: absolute;
+    top: -500px;
+    left: 0;
+    width: 100%;
+    background-color: var(--white-color);
+    box-shadow: 0px 4px 10px var(--dark-color);
+    z-index: 998;
+    transition: top 0.5s ease-in-out;
+}
+
+#main-menu.opened {
+    top: 66px !important;
+}
+
+#main-menu .item {
+    padding: 15px 25px;
+}
+
+#main-menu .item:hover, #main-menu .item:focus {
+    background-color: var(--light-color);
+}
+
+.sections {
+    width: 100%;
+    height: 100%;
+    padding-top: 66px;
+}
+
+.sections > div {
     width: 100%;
     height: 100%;
 }
 
-.locations-selector .location {
-    position: relative;
+#home-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+#home-section .locations {
     width: 100%;
     height: 33%;
-    border-radius: 20px;
-    box-shadow: 0px 0px 4px var(--black-color);
-    overflow: hidden;
-    color: var(--primary-color);
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-.location .bg {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    filter: brightness(0.33) blur(0.66px);
-    z-index: -1;
-}
-
-.bg-tokio {
-    background-image: url('img/tokio.webp');
-}
-
-.bg-kioto {
-    background-image: url('img/kioto.webp');
-}
-
-.bg-osaka {
-    background-image: url('img/osaka.webp');
-}
-
-.location .title {
-    font-size: 100px;
-    font-weight: 600;
-}
-
-.location .subtitle {
-    font-size: 35px;
-    font-weight: 400;
-}
-
-.locations {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    width: 100%;    
-}
-
-.locations .location {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    border-radius: 20px;
-    box-shadow: 0px 0px 4px var(--black-color);
-    overflow: hidden;
-    color: var(--primary-color);
-    padding: 20px;
-}
-
-.interes-point {
-    padding: 20px 10px 0px 10px;
-    margin-top: 10px;
-    border-top: 1px var(--black-color) solid;
-}
-
-.interes-point .title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.interes-point .title .icones {
-    display: flex;
-    justify-content: center;
-    align-items: ce;
-    flex-direction: row-reverse;
-    gap: 20px;
-}
-
-.interes-point .title p {
-    font-size: 45px;
-    font-weight: 600;
-}
-
-.interes-point .title img {
-    width: 45px;
-    height: 45px;
-}
-
-.interes-point ul {
-    padding: 10px 0px 10px 40px;
-}
-
-.interes-point li {
-    margin-bottom: 10px;
-}
-
-.interes-point > img {
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-    margin: 50px 0px 0px 0px;
-    box-shadow: 0px 0px 10px var(--black-color);
-}
-
-.interes-point .maps {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    gap: 15px;
-    width: 100%;
-    text-align: right;
-    margin: 5px 0px 0px -5px;
-    text-decoration: none;
-    color: var(--black-color);
-    font-weight: 600;
-    font-size: 35px;
-    padding-bottom: 3px;
-}
-
-.interes-point .maps img {
-    margin-top: 7px;
-    width: 40px;
-    height: 40px;
-}
-
-span {
-    font-size: 45px !important;
-    font-weight: 600 !important;
-    color: var(--secondary-color) !important;
-}
-
-b {
-    color: var(--secondary-color);
-    font-weight: 600;
+    background-color: red;
+    border-radius: 5px;
+    background: url('./img/tokio.webp') no-repeat center center/cover;
+    backdrop-filter: blur(10px);
 }
