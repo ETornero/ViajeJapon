@@ -1,4 +1,4 @@
-const tokioSites = {
+const locations = {
     "popularSites": [
         {
             "name": "Templo Senso-ji",
@@ -327,11 +327,11 @@ function instanceTokioElements() {
         return div;
     }
 
-    tokioSites.popularSites.forEach(site => {
+    locations.popularSites.forEach(site => {
         popularContainer.appendChild(createDivElement(site));
     });
 
-    tokioSites.notPopularSites.forEach(site => {
+    locations.notPopularSites.forEach(site => {
         notPopularContainer.appendChild(createDivElement(site));
     });
 }
@@ -353,7 +353,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const nightFilter = document.getElementById('night-filter');
 
     function handleFilterClick(event) {
-        console.log('id:'+ this.id);
         const filterType = this.id.replace(/-filter$/, '');
 
         const pointsOfInterest = document.querySelectorAll('.interes-point .point');

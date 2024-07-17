@@ -8,170 +8,74 @@
         <link rel="icon" type="image/x-icon" href="./img/favicon.png">
         <link rel='canonical' href='http://127.0.0.1:5500/index.html' />
         <script src="./script.js"></script>
+        <script src="./locationsKyoto.js"></script>
         <link rel="stylesheet" href="./style.css">
     </head>
-<body style="background-image: url('./img/kiotoBackground.jpg');">
-    <div>
-        <div id="header">
-            <img id="burger-button" src="./img/burgerIcone.png" alt="Burger icones button" title="Burger icone" width="32px" height="32px">
-            <a href="./"><img src="./img/japanFlag.png" alt="Japan flag icone" title="Japan flag" width="40px" height="40px"></a>
-        </div>
-        <div id="main-menu">
-            <a href="./tokio" class="item">Tokio</a>
-            <a href="./osaka" class="item">Osaka</a>
-            <a href="./kioto" class="item">Kioto</a>
-        </div>
+<body style="background-image: url('./img/tokioBackground.jpg');">
+    <div id="header">
+        <img id="burger-button" src="./img/burgerIcone.png" width="32px" height="32px">
+        <a href="./"><img src="./img/japanFlag.png" width="40px" height="40px"></a>
+    </div>
+    <div id="main-menu">
+        <a href="./tokio" class="item">Tokio</a>
+        <a href="./kioto" class="item">Kioto</a>
+        <a href="./osaka" class="item">Osaka</a>
     </div>
     <div class="sections">
-       
+       <div class="location-section">
+            <div class="filter">
+                <div id="all-filter">
+                    <img src="./img/allIcone.png">
+                </div>
+                <div id="cafe-filter">
+                    <img src="./img/cafeIcone.png">
+                </div>
+                <div id="food-filter">
+                    <img src="./img/foodIcone.png">
+                </div>
+                <div id="shop-filter">
+                    <img src="./img/shopIcone.png">
+                </div>
+                <div id="temple-filter">
+                    <img src="./img/templeIcone.png">
+                </div>
+                <div id="restaurant-filter">
+                    <img src="./img/restaurantIcone.png">
+                </div>
+                <div id="natural-filter">
+                    <img src="./img/naturalIcone.png">
+                </div>
+                <div id="leisure-filter">
+                    <img src="./img/leisureIcone.png">
+                </div>
+                <div id="water-filter">
+                    <img src="./img/waterIcone.png">
+                </div>
+                <div id="gacha-filter">
+                    <img src="./img/gachaIcone.png">
+                </div>
+                <div id="anime-filter">
+                    <img src="./img/animeIcone.png">
+                </div>
+                <div id="night-filter">
+                    <img src="./img/nightIcone.png">
+                </div>
+            </div>
+            <div class="titles">
+                <p class="title">Popular</p>
+                <p class="subtitle">人気のある</p>
+            </div>
+            <div id="popular" class="interes-point">
+                
+            </div>
+            <div class="titles">
+                <p class="title">Menos conocidos</p>
+                <p class="subtitle">人気のある</p>
+            </div>
+            <div id="not-popular" class="interes-point">
+  
+            </div>
+       </div>
     </div>
-
-    <!--
-    <div class="locations-selector">
-        <div class="location">
-            <div class="bg bg-tokio"></div>
-            <p class="title">Tokio</p>
-            <p class="subtitle">東京</p>
-        </div>
-        <div class="location">
-            <div class="bg bg-kioto"></div>
-            <p class="title">Kioto</p>
-            <p class="subtitle">京都市</p>
-        </div>
-        <div class="location">
-            <div class="bg bg-osaka"></div>
-            <p class="title">Osaka</p>
-            <p class="subtitle">大阪</p>
-        </div>
-    </div>
-    <div class="locations">
-        <div class="location">
-            <div class="bg bg-tokio"></div>
-            <p class="title">Tokio</p>
-            <p class="subtitle">東京</p>
-        </div>
-        <div class="interes-point">
-            <div class="title">
-                <p>Akihabara (<span>秋葉原</span>)</p>
-                <div class="icones">
-                    <img src="img/gaming.png">
-                    <img src="img/electronica.png">
-                    <img src="img/anime.png">
-                    <img src="img/cafe.png">
-                </div>
-            </div>
-            <p>
-                <ul>
-                    <li>Tiendas de manga, anime, electrónica y videojuegos.</li>
-                    <li>Maid cafes(cafeterías con camareras disfrazadas de sirvientas).</li>
-                    <li>"Cosplay Purikura" (fotos con filtros especiales).</li>
-                </ul>
-                Es recomendable visitarlo los domingos o días festivos para disfrutar de las calles peatonales y la iluminación nocturna.
-            </p>
-            <img src="img/akihabara.webp">
-            <a href="https://maps.app.goo.gl/LPuYrmfsxC7mq46E9" target="_blank" class="maps">
-                Cómo llegar
-                <img src="img/go.png">
-            </a>        
-        </div>
-        <div class="interes-point">
-            <div class="title">
-                <p>Parque de Ueno (<span>上野公園</span>)</p>
-                <div class="icones">
-                    <img src="img/templo.png">
-                    <img src="img/parque.png">
-                </div>
-            </div>
-            <p>
-                <ul>
-                    <li>Estanque Shinobazi con templos y áreas de lotos, barcos y cormoranes.</li>
-                    <li>Santuario Toshogu, pagoda de cinco pisos, Templo Kiyomizu Kannon-do, Jomyoin, estatua de Saigo Takamori y el Gran Buda de Ueno.</li>
-                    <li>Museo Nacional de Tokio.</li>
-                    <li>Calle Ameyoko, un mercado lleno de tiendas y puestos de comida.</li>
-                </ul>
-                El parque es especialmente hermoso durante la floración de los cerezos en primavera. Puedes llegar en la línea JR Yamanote y las líneas de metro Hibiya y Ginza.
-            </p>
-            <img src="img/ueno.webp">
-            <a href="https://maps.app.goo.gl/4rFyowgeXWBELBBE8" target="_blank" class="maps">
-                Cómo llegar
-                <img src="img/go.png">
-            </a>        
-        </div>
-        <div class="interes-point">
-            <div class="title">
-                <p>Shinjuku (<span>新宿</span>)</p>
-                <div class="icones">
-                    <img src="img/ocio.png">
-                    <img src="img/comida.png">
-                    <img src="img/tiendas.png">
-                    <img src="img/karaoke.png">
-                </div>
-            </div>
-            <p>
-                <ul>
-                    <li>Zonas de ocio con neones, tiendas de electrónica, salas recreativas y karaokes.</li>
-                    <li>Enormes centros comerciales y excelentes restaurantes como Gyukatsu Motomura y Gyopao Gyoza.</li>
-                    <li>Kabukicho (barrio rojo), TOHO Cinemas Shinjuku (con la cabeza de Godzilla), Omoide Yokocho, Golden Gai y la pantalla 3D en Cross Space.</li>
-                    <li>El parque Shinjuku Gyoen para descansar.</li>
-                </ul>
-                Se llega a la estación de Shinjuku mediante las líneas Yamanote, Chuo, Saikyo, Shonan-Shinjuku, Keihin-Tohoku (JR Pass) y las líneas de metro Seibu, Higashi, Nishi y Oedi.
-            </p>
-            <img src="img/shinjuku.webp">
-            <a href="https://maps.app.goo.gl/Y7xq4S8xowxE7Uc27" target="_blank" class="maps">
-                Cómo llegar
-                <img src="img/go.png">
-            </a>        
-        </div>
-        <div class="interes-point">
-            <div class="title">
-                <p>Harajuku (<span>原宿</span>)</p>
-                <div class="icones">
-                    <img src="img/cafe.png">
-                    <img src="img/comida.png">
-                    <img src="img/tiendas.png">
-                </div>
-            </div>
-            <p>
-                <ul>
-                    <li>Takeshita-dori, una calle peatonal llena de cafés y tiendas, epicentro del estilo kawaii.</li>
-                    <li>Puente Meiji Jingu Shinkyo, donde los domingos puedes ver jóvenes disfrazados de personajes de manga o videojuegos.</li>
-                    <li>Calle Omotesando, conocida por sus lujosas tiendas de moda y cafeterías con estilo.</li>
-                </ul>
-                Para llegar a esta zona de la ciudad, puedes utilizar la línea JR Yamanote (incluida en el JR Pass) hasta la estación Harajuku, o las líneas de metro Chiyoda y Fukutoshin hasta la estación Meiji-jingu-mae.
-            </p>
-            <img src="img/harajuku.webp">
-            <a href="https://maps.app.goo.gl/pDAjRhk5XuA8WLAcA" target="_blank" class="maps">
-                Cómo llegar
-                <img src="img/go.png">
-            </a>        
-        </div>
-        <div class="interes-point">
-            <div class="title">
-                <p>Shibuya (<span>渋谷</span>)</p>
-                <div class="icones">
-                    <img src="img/restaurante.png">
-                    <img src="img/tiendas.png">
-                </div>
-            </div>
-            <p>
-                <ul>
-                    <li>El paso de peatones más famoso del mundo, frente al Starbucks, junto a la estatua del fiel perro Hachiko.</li>
-                    <li>Callejones encantadores como Nonbei Yokocho.</li>
-                    <li>Miradores recomendados como la terraza del edificio Magnet para vistas del cruce de peatones, o el Shibuya Sky, un mirador al aire libre a 230 metros de altura.</li>
-                    <li>Restaurantes como Hakushu Teppanyaki para probar carne de wagyu marmoleada o Ichiran, especializado en ramen.</li>
-                    <li>Centro comercial Shibuya 109, todo un espectáculo para los sentidos.</li>
-                    <li>Recorrido en kart inspirado en Super Mario Bros por Shibuya.</li>
-                    <li>Dongenzaka, la Colina de los Love Hotels, con hoteles temáticos por horas.</li>
-                </ul>
-                Para llegar a la céntrica estación de Shibuya, puedes utilizar el JR Pass para las líneas Yamanote, Saikyo, Shonan Shinjuku, o el metro.
-            </p>
-            <img src="img/shibuya.webp">
-            <a href="https://maps.app.goo.gl/W8rdisnQqt3Dt1xK6" target="_blank" class="maps">
-                Cómo llegar
-                <img src="img/go.png">
-            </a>        
-        </div>
-    </div>
-    -->
 </body>
 </html>
