@@ -39,6 +39,70 @@ const tokioSites = {
             "distance": "low",
             "description": "El Palacio Imperial es la residencia principal del Emperador de Japón, situada en un gran parque en el centro de Tokio, cerca de la estación de Tokio.",
             "maps" : ""
+        },
+        {
+            "name": "Akihabara",
+            "japanese_name": "秋葉原",
+            "services": ["shop", "anime", "gacha"],
+            "distance": "medium",
+            "description": "Akihabara es famoso por ser el centro de la cultura otaku y electrónica en Tokio. Aquí puedes encontrar tiendas de anime, manga, electrónicos y cafés temáticos.",
+            "maps" : ""
+        },
+        {
+            "name": "Harajuku",
+            "japanese_name": "原宿",
+            "services": ["shop", "cafe"],
+            "distance": "medium",
+            "description": "Harajuku es conocido por su moda callejera única y colorida. Además de tiendas de moda, encontrarás cafés temáticos y tiendas kawaii.",
+            "maps" : ""
+        },
+        {
+            "name": "Tsukiji Fish Market",
+            "japanese_name": "築地市場",
+            "services": ["food"],
+            "distance": "medium",
+            "description": "El Mercado de Pescado de Tsukiji es famoso por su fresco sushi y mariscos. Un lugar imperdible para los amantes de la comida japonesa.",
+            "maps" : ""
+        },
+        {
+            "name": "Robot Restaurant",
+            "japanese_name": "ロボットレストラン",
+            "services": ["food", "leisure", "restaurant"],
+            "distance": "medium",
+            "description": "El Robot Restaurant en Shinjuku ofrece una experiencia única con actuaciones de robots y una cena extravagante.",
+            "maps" : ""
+        },
+        {
+            "name": "Odaiba",
+            "japanese_name": "お台場",
+            "services": ["shop", "food", "leisure"],
+            "distance": "high",
+            "description": "Odaiba es una isla artificial en la bahía de Tokio, conocida por sus centros comerciales, parques temáticos y vistas panorámicas.",
+            "maps" : ""
+        },
+        {
+            "name": "Ichiran Ramen",
+            "japanese_name": "一蘭",
+            "services": ["food", "restaurant"],
+            "distance": "medium",
+            "description": "Ichiran Ramen es conocido por su ramen tonkotsu con fideos finos y sabor intenso. Ofrecen una experiencia única donde puedes disfrutar de tu ramen en cubículos individuales.",
+            "maps" : ""
+        },
+        {
+            "name": "Sushi Dai",
+            "japanese_name": "寿司大",
+            "services": ["food", "restaurant"],
+            "distance": "medium",
+            "description": "Sushi Dai es famoso por su sushi fresco y de alta calidad en el Mercado de Pescado de Tsukiji. Es conocido por sus largas colas, pero vale la pena la espera.",
+            "maps" : ""
+        },
+        {
+            "name": "Escaleras de Your Name",
+            "japanese_name": "君の名はの階段",
+            "services": ["leisure"],
+            "distance": "medium",
+            "description": "Las escaleras de Your Name son un lugar icónico ubicado en Shinjuku, Tokio, famosas por su aparición en la película anime 'Your Name'. Son visitadas por fans de todo el mundo.",
+            "maps" : ""
         }
     ],
     "notPopularSites": [
@@ -97,6 +161,70 @@ const tokioSites = {
             "distance": "medium",
             "description": "El Museo Ghibli es un museo dedicado a las obras del estudio de animación Studio Ghibli, ofreciendo una experiencia mágica y creativa para los visitantes.",
             "maps" : ""
+        },
+        {
+            "name": "Animate Ikebukuro",
+            "japanese_name": "アニメイト池袋",
+            "services": ["shop", "anime"],
+            "distance": "medium",
+            "description": "Animate Ikebukuro es una tienda especializada en anime y manga, con una amplia gama de productos de tus series favoritas, desde figuras hasta mercancía exclusiva.",
+            "maps" : ""
+        },
+        {
+            "name": "Golden Gai",
+            "japanese_name": "ゴールデン街",
+            "services": ["food", "night"],
+            "distance": "medium",
+            "description": "Golden Gai en Shinjuku es famoso por sus diminutos bares y pubs temáticos, ofreciendo una experiencia única de vida nocturna en Tokio.",
+            "maps" : ""
+        },
+        {
+            "name": "Shin-Okubo Koreatown",
+            "japanese_name": "新大久保",
+            "services": ["food", "shop"],
+            "distance": "medium",
+            "description": "Shin-Okubo es conocido como Koreatown en Tokio, famoso por sus restaurantes coreanos, tiendas de K-pop y cultura coreana.",
+            "maps" : ""
+        },
+        {
+            "name": "Jimbocho Book Town",
+            "japanese_name": "神保町",
+            "services": ["shop", "anime"],
+            "distance": "medium",
+            "description": "Jimbocho es el paraíso de los libros en Tokio, con numerosas librerías antiguas y tiendas de libros usados que atraen a los amantes de la lectura y la cultura.",
+            "maps" : ""
+        },
+        {
+            "name": "Piss Alley",
+            "japanese_name": "思い出横丁",
+            "services": ["food", "nightlife"],
+            "distance": "medium",
+            "description": "Piss Alley en Shinjuku es famoso por sus pequeños restaurantes y bares tradicionales japoneses, ofreciendo una auténtica experiencia culinaria.",
+            "maps" : ""
+        },
+        {
+            "name": "Menya Musashi",
+            "japanese_name": "麺屋武蔵",
+            "services": ["food", "restaurant"],
+            "distance": "medium",
+            "description": "Menya Musashi es conocido por su ramen tsukemen, donde los fideos se sirven por separado para mojar en caldo espeso y sabroso. Es una experiencia única para los amantes del ramen.",
+            "maps" : ""
+        },
+        {
+            "name": "Sushi Saito",
+            "japanese_name": "鮨 さいとう",
+            "services": ["food", "restaurant"],
+            "distance": "medium",
+            "description": "Sushi Saito es uno de los mejores restaurantes de sushi en Tokio, dirigido por el famoso chef Takashi Saito. Es conocido por su sushi meticulosamente preparado con ingredientes frescos.",
+            "maps" : ""
+        },
+        {
+            "name": "Sumibiyakiniku Nakahara",
+            "japanese_name": "炭火焼肉 中原",
+            "services": ["food", "restaurant"],
+            "distance": "medium",
+            "description": "Sumibiyakiniku Nakahara es famoso por su yakiniku, carne japonesa a la parrilla estilo coreano. Utilizan carne wagyu de alta calidad y ofrecen una experiencia gastronómica excepcional.",
+            "maps" : ""
         }
     ]
 };
@@ -114,6 +242,7 @@ function instanceTokioElements() {
     function createDivElement(site) {
         const div = document.createElement('div');
         div.className = 'point';
+        div.setAttribute('type', 'all,' + site.services);
 
         const backgroundDiv = document.createElement('div');
         backgroundDiv.className = 'background';
@@ -207,7 +336,49 @@ function instanceTokioElements() {
     });
 }
 
-// Wait for the DOM to fully load before running the script
 document.addEventListener('DOMContentLoaded', (event) => {
     instanceTokioElements();
+
+    const allFilter = document.getElementById('all-filter');
+    const cafeFilter = document.getElementById('cafe-filter');
+    const foodFilter = document.getElementById('food-filter');
+    const shopFilter = document.getElementById('shop-filter');
+    const templeFilter = document.getElementById('temple-filter');
+    const restaurantFilter = document.getElementById('restaurant-filter');
+    const naturalFilter = document.getElementById('natural-filter');
+    const leisureFilter = document.getElementById('leisure-filter');
+    const waterFilter = document.getElementById('water-filter');
+    const gachaFilter = document.getElementById('gacha-filter');
+    const animeFilter = document.getElementById('anime-filter');
+    const nightFilter = document.getElementById('night-filter');
+
+    function handleFilterClick(event) {
+        console.log('id:'+ this.id);
+        const filterType = this.id.replace(/-filter$/, '');
+
+        const pointsOfInterest = document.querySelectorAll('.interes-point .point');
+
+        pointsOfInterest.forEach(point => {
+            const types = point.getAttribute('type').split(',');
+            if (types.includes(filterType)) {
+                point.classList.remove('hiden'); // Mostrar el punto si incluye el tipo de filtro
+            } else {
+                point.classList.add('hiden'); // Ocultar el punto si no incluye el tipo de filtro
+            }
+        });
+    }
+
+    allFilter.addEventListener('click', handleFilterClick);
+    cafeFilter.addEventListener('click', handleFilterClick);
+    foodFilter.addEventListener('click', handleFilterClick);
+    shopFilter.addEventListener('click', handleFilterClick);
+    templeFilter.addEventListener('click', handleFilterClick);
+    restaurantFilter.addEventListener('click', handleFilterClick);
+    naturalFilter.addEventListener('click', handleFilterClick);
+    leisureFilter.addEventListener('click', handleFilterClick);
+    waterFilter.addEventListener('click', handleFilterClick);
+    gachaFilter.addEventListener('click', handleFilterClick);
+    animeFilter.addEventListener('click', handleFilterClick);
+    nightFilter.addEventListener('click', handleFilterClick);
 });
+
