@@ -4,36 +4,41 @@ const tokioSites = {
             "name": "Templo Senso-ji",
             "japanese_name": "浅草寺",
             "services": ["temple", "natural"],
-            "distance": "High",
-            "description": "El Templo Senso-ji es un antiguo templo budista situado en Asakusa, es el templo más antiguo de Tokio y uno de los más significativos."
+            "distance": "high",
+            "description": "El Templo Senso-ji es un antiguo templo budista situado en Asakusa, es el templo más antiguo de Tokio y uno de los más significativos.",
+            "maps" : "https://maps.app.goo.gl/PsCftuVGeyQqgD11A"
         },
         {
             "name": "Torre de Tokio",
             "japanese_name": "東京タワー",
             "services": ["shop", "food", "leisure"],
-            "distance": "Low",
-            "description": "La Torre de Tokio es una torre de comunicación y observación situada en el distrito de Shiba-Koen, Minato. Es uno de los símbolos más emblemáticos de Tokio."
+            "distance": "low",
+            "description": "La Torre de Tokio es una torre de comunicación y observación situada en el distrito de Shiba-Koen, Minato. Es uno de los símbolos más emblemáticos de Tokio.",
+            "maps" : ""
         },
         {
             "name": "Shibuya Crossing",
             "japanese_name": "渋谷スクランブル交差点",
             "services": ["shop", "food", "leisure"],
-            "distance": "Medium",
-            "description": "El Shibuya Crossing es uno de los cruces peatonales más transitados del mundo, famoso por su señalización y su frenética actividad."
+            "distance": "medium",
+            "description": "El Shibuya Crossing es uno de los cruces peatonales más transitados del mundo, famoso por su señalización y su frenética actividad.",
+            "maps" : ""
         },
         {
             "name": "Santuario Meiji",
             "japanese_name": "明治神宮",
             "services": ["temple", "natural"],
-            "distance": "Medium",
-            "description": "El Santuario Meiji es un santuario sintoísta dedicado a los espíritus deificados del Emperador Meiji y su consorte, la Emperatriz Shoken."
+            "distance": "medium",
+            "description": "El Santuario Meiji es un santuario sintoísta dedicado a los espíritus deificados del Emperador Meiji y su consorte, la Emperatriz Shoken.",
+            "maps" : ""
         },
         {
             "name": "Palacio Imperial",
             "japanese_name": "皇居",
             "services": ["temple", "natural"],
-            "distance": "Low",
-            "description": "El Palacio Imperial es la residencia principal del Emperador de Japón, situada en un gran parque en el centro de Tokio, cerca de la estación de Tokio."
+            "distance": "low",
+            "description": "El Palacio Imperial es la residencia principal del Emperador de Japón, situada en un gran parque en el centro de Tokio, cerca de la estación de Tokio.",
+            "maps" : ""
         }
     ],
     "notPopularSites": [
@@ -41,50 +46,57 @@ const tokioSites = {
             "name": "Yanaka Ginza",
             "japanese_name": "谷中銀座",
             "services": ["shop", "food", "leisure"],
-            "distance": "High",
-            "description": "Yanaka Ginza es una encantadora calle comercial en el barrio de Yanaka, conocida por su atmósfera nostálgica y sus tiendas tradicionales."
+            "distance": "high",
+            "description": "Yanaka Ginza es una encantadora calle comercial en el barrio de Yanaka, conocida por su atmósfera nostálgica y sus tiendas tradicionales.",
+            "maps" : ""
         },
         {
             "name": "Oedo Onsen Monogatari",
             "japanese_name": "大江戸温泉物語",
             "services": ["temple", "water"],
-            "distance": "Medium",
-            "description": "Oedo Onsen Monogatari es un complejo de aguas termales temático que recrea el ambiente del periodo Edo, ofreciendo una experiencia única de baños japoneses."
+            "distance": "medium",
+            "description": "Oedo Onsen Monogatari es un complejo de aguas termales temático que recrea el ambiente del periodo Edo, ofreciendo una experiencia única de baños japoneses.",
+            "maps" : ""
         },
         {
             "name": "Todoroki Valley",
             "japanese_name": "等々力渓谷",
             "services": ["natural"],
-            "distance": "Medium",
-            "description": "El Valle de Todoroki es un oasis natural en la ciudad de Tokio, conocido por su sendero junto al río y su tranquilo entorno natural."
+            "distance": "medium",
+            "description": "El Valle de Todoroki es un oasis natural en la ciudad de Tokio, conocido por su sendero junto al río y su tranquilo entorno natural.",
+            "maps" : ""
         },
         {
             "name": "Nakano Broadway",
             "japanese_name": "中野ブロードウェイ",
             "services": ["shop", "leisure"],
-            "distance": "High",
-            "description": "Nakano Broadway es un centro comercial en el distrito de Nakano, famoso por sus tiendas de anime, manga y artículos coleccionables."
+            "distance": "high",
+            "description": "Nakano Broadway es un centro comercial en el distrito de Nakano, famoso por sus tiendas de anime, manga y artículos coleccionables.",
+            "maps" : ""
         },
         {
             "name": "Koenji",
             "japanese_name": "高円寺",
             "services": ["food", "shop", "leisure"],
-            "distance": "High",
-            "description": "Koenji es un barrio conocido por su animada escena musical, tiendas vintage y ambiente bohemio."
+            "distance": "high",
+            "description": "Koenji es un barrio conocido por su animada escena musical, tiendas vintage y ambiente bohemio.",
+            "maps" : ""
         },
         {
             "name": "Shimokitazawa",
             "japanese_name": "下北沢",
             "services": ["food", "shop", "leisure"],
-            "distance": "High",
-            "description": "Shimokitazawa es un barrio vibrante y artístico, conocido por sus pequeñas tiendas, cafés acogedores y teatros independientes."
+            "distance": "high",
+            "description": "Shimokitazawa es un barrio vibrante y artístico, conocido por sus pequeñas tiendas, cafés acogedores y teatros independientes.",
+            "maps" : ""
         },
         {
             "name": "Museo Ghibli",
             "japanese_name": "三鷹の森ジブリ美術館",
             "services": ["leisure"],
-            "distance": "Medium",
-            "description": "El Museo Ghibli es un museo dedicado a las obras del estudio de animación Studio Ghibli, ofreciendo una experiencia mágica y creativa para los visitantes."
+            "distance": "medium",
+            "description": "El Museo Ghibli es un museo dedicado a las obras del estudio de animación Studio Ghibli, ofreciendo una experiencia mágica y creativa para los visitantes.",
+            "maps" : ""
         }
     ]
 };
@@ -107,6 +119,11 @@ function instanceTokioElements() {
         backgroundDiv.className = 'background';
         backgroundDiv.style.backgroundImage = `url(./img/${site.name.replace(/\s+/g, '')}.jpg)`;
         div.appendChild(backgroundDiv);
+
+        const distanceDiv = document.createElement('div');
+        distanceDiv.className = 'distance '+site.distance;
+
+        backgroundDiv.appendChild(distanceDiv);
 
         const contentDiv = document.createElement('div');
         contentDiv.className = 'content';
@@ -140,7 +157,9 @@ function instanceTokioElements() {
 
         infoDiv.appendChild(servicesDiv);
 
-        const arriveDiv = document.createElement('div');
+        const arriveDiv = document.createElement('a');
+        arriveDiv.target = '_blank'
+        arriveDiv.href = site.maps;
         arriveDiv.className = 'arrive';
 
         const arriveP = document.createElement('p');
@@ -156,6 +175,25 @@ function instanceTokioElements() {
         contentDiv.appendChild(infoDiv);
 
         div.appendChild(contentDiv);
+
+        const descriptionDiv = document.createElement('div');
+        descriptionDiv.className = 'description';
+
+        const descriptionText = document.createElement('p');
+        descriptionText.textContent = site.description;
+
+        descriptionDiv.appendChild(descriptionText);
+
+        div.appendChild(descriptionDiv);
+
+        div.addEventListener('click', () => {
+
+            div.classList.toggle('active');
+        });
+
+        arriveDiv.addEventListener('click', (event) => {
+            event.stopPropagation();
+        });
 
         return div;
     }
