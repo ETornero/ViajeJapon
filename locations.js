@@ -14,7 +14,7 @@ const tokioSites = {
             "services": ["shop", "food", "leisure"],
             "distance": "low",
             "description": "La Torre de Tokio es una torre de comunicación y observación situada en el distrito de Shiba-Koen, Minato. Es uno de los símbolos más emblemáticos de Tokio.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/e1cxzeMX9AnWVfep9"
         },
         {
             "name": "Shibuya Crossing",
@@ -22,7 +22,7 @@ const tokioSites = {
             "services": ["shop", "food", "leisure"],
             "distance": "medium",
             "description": "El Shibuya Crossing es uno de los cruces peatonales más transitados del mundo, famoso por su señalización y su frenética actividad.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/G6cWhxJR85Lf7yJbA"
         },
         {
             "name": "Santuario Meiji",
@@ -30,7 +30,7 @@ const tokioSites = {
             "services": ["temple", "natural"],
             "distance": "medium",
             "description": "El Santuario Meiji es un santuario sintoísta dedicado a los espíritus deificados del Emperador Meiji y su consorte, la Emperatriz Shoken.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/LjbSYQh7a2DmSdhi7"
         },
         {
             "name": "Palacio Imperial",
@@ -38,7 +38,7 @@ const tokioSites = {
             "services": ["temple", "natural"],
             "distance": "low",
             "description": "El Palacio Imperial es la residencia principal del Emperador de Japón, situada en un gran parque en el centro de Tokio, cerca de la estación de Tokio.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/q55hW8Hw6BfBhEQ9A"
         },
         {
             "name": "Akihabara",
@@ -46,7 +46,7 @@ const tokioSites = {
             "services": ["shop", "anime", "gacha"],
             "distance": "medium",
             "description": "Akihabara es famoso por ser el centro de la cultura otaku y electrónica en Tokio. Aquí puedes encontrar tiendas de anime, manga, electrónicos y cafés temáticos.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/Ayh5EshEZ93GVu6LA"
         },
         {
             "name": "Harajuku",
@@ -54,7 +54,7 @@ const tokioSites = {
             "services": ["shop", "cafe"],
             "distance": "medium",
             "description": "Harajuku es conocido por su moda callejera única y colorida. Además de tiendas de moda, encontrarás cafés temáticos y tiendas kawaii.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/SA734sdVdHfWvPpw5"
         },
         {
             "name": "Tsukiji Fish Market",
@@ -62,7 +62,7 @@ const tokioSites = {
             "services": ["food"],
             "distance": "medium",
             "description": "El Mercado de Pescado de Tsukiji es famoso por su fresco sushi y mariscos. Un lugar imperdible para los amantes de la comida japonesa.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/LCpyWxXrbKofJKsa8"
         },
         {
             "name": "Robot Restaurant",
@@ -70,7 +70,7 @@ const tokioSites = {
             "services": ["food", "leisure", "restaurant"],
             "distance": "medium",
             "description": "El Robot Restaurant en Shinjuku ofrece una experiencia única con actuaciones de robots y una cena extravagante.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/AhkPKCSVNLyjezBF9"
         },
         {
             "name": "Odaiba",
@@ -78,7 +78,7 @@ const tokioSites = {
             "services": ["shop", "food", "leisure"],
             "distance": "high",
             "description": "Odaiba es una isla artificial en la bahía de Tokio, conocida por sus centros comerciales, parques temáticos y vistas panorámicas.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/yYSEKAwpXc9UXJFm9"
         },
         {
             "name": "Ichiran Ramen",
@@ -86,7 +86,7 @@ const tokioSites = {
             "services": ["food", "restaurant"],
             "distance": "medium",
             "description": "Ichiran Ramen es conocido por su ramen tonkotsu con fideos finos y sabor intenso. Ofrecen una experiencia única donde puedes disfrutar de tu ramen en cubículos individuales.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/HCT3MMZAvtABUdpX6"
         },
         {
             "name": "Sushi Dai",
@@ -94,7 +94,7 @@ const tokioSites = {
             "services": ["food", "restaurant"],
             "distance": "medium",
             "description": "Sushi Dai es famoso por su sushi fresco y de alta calidad en el Mercado de Pescado de Tsukiji. Es conocido por sus largas colas, pero vale la pena la espera.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/ibtzpYJWkwon14QE6"
         },
         {
             "name": "Escaleras de Your Name",
@@ -102,7 +102,7 @@ const tokioSites = {
             "services": ["leisure"],
             "distance": "medium",
             "description": "Las escaleras de Your Name son un lugar icónico ubicado en Shinjuku, Tokio, famosas por su aparición en la película anime 'Your Name'. Son visitadas por fans de todo el mundo.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/pNmSUneYdyeoSTSq6"
         }
     ],
     "notPopularSites": [
@@ -112,7 +112,7 @@ const tokioSites = {
             "services": ["shop", "food", "leisure"],
             "distance": "high",
             "description": "Yanaka Ginza es una encantadora calle comercial en el barrio de Yanaka, conocida por su atmósfera nostálgica y sus tiendas tradicionales.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/iiVU1hynAbzaWf9TA"
         },
         {
             "name": "Oedo Onsen Monogatari",
@@ -120,7 +120,7 @@ const tokioSites = {
             "services": ["temple", "water"],
             "distance": "medium",
             "description": "Oedo Onsen Monogatari es un complejo de aguas termales temático que recrea el ambiente del periodo Edo, ofreciendo una experiencia única de baños japoneses.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/DEpw449RgQ8WYk8q9"
         },
         {
             "name": "Todoroki Valley",
@@ -128,7 +128,7 @@ const tokioSites = {
             "services": ["natural"],
             "distance": "medium",
             "description": "El Valle de Todoroki es un oasis natural en la ciudad de Tokio, conocido por su sendero junto al río y su tranquilo entorno natural.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/2YohbraLSnRvH1um9"
         },
         {
             "name": "Nakano Broadway",
@@ -136,7 +136,7 @@ const tokioSites = {
             "services": ["shop", "leisure"],
             "distance": "high",
             "description": "Nakano Broadway es un centro comercial en el distrito de Nakano, famoso por sus tiendas de anime, manga y artículos coleccionables.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/SBYZAtKESsXVZA646"
         },
         {
             "name": "Koenji",
@@ -144,7 +144,7 @@ const tokioSites = {
             "services": ["food", "shop", "leisure"],
             "distance": "high",
             "description": "Koenji es un barrio conocido por su animada escena musical, tiendas vintage y ambiente bohemio.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/SzcWTycvNrxXY2cZ6"
         },
         {
             "name": "Shimokitazawa",
@@ -152,7 +152,7 @@ const tokioSites = {
             "services": ["food", "shop", "leisure"],
             "distance": "high",
             "description": "Shimokitazawa es un barrio vibrante y artístico, conocido por sus pequeñas tiendas, cafés acogedores y teatros independientes.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/AaNHfcQ9B1wYh4WMA"
         },
         {
             "name": "Museo Ghibli",
@@ -160,7 +160,7 @@ const tokioSites = {
             "services": ["leisure"],
             "distance": "medium",
             "description": "El Museo Ghibli es un museo dedicado a las obras del estudio de animación Studio Ghibli, ofreciendo una experiencia mágica y creativa para los visitantes.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/Xi1u4ZosgR3E1p1Q7"
         },
         {
             "name": "Animate Ikebukuro",
@@ -168,7 +168,7 @@ const tokioSites = {
             "services": ["shop", "anime"],
             "distance": "medium",
             "description": "Animate Ikebukuro es una tienda especializada en anime y manga, con una amplia gama de productos de tus series favoritas, desde figuras hasta mercancía exclusiva.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/i2hpgugMpZwBq1hf7"
         },
         {
             "name": "Golden Gai",
@@ -176,7 +176,7 @@ const tokioSites = {
             "services": ["food", "night"],
             "distance": "medium",
             "description": "Golden Gai en Shinjuku es famoso por sus diminutos bares y pubs temáticos, ofreciendo una experiencia única de vida nocturna en Tokio.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/WqFtcKXUDY33XQSV8"
         },
         {
             "name": "Shin-Okubo Koreatown",
@@ -184,7 +184,7 @@ const tokioSites = {
             "services": ["food", "shop"],
             "distance": "medium",
             "description": "Shin-Okubo es conocido como Koreatown en Tokio, famoso por sus restaurantes coreanos, tiendas de K-pop y cultura coreana.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/7HzK2sHGaiQ9hRKk6"
         },
         {
             "name": "Jimbocho Book Town",
@@ -192,7 +192,7 @@ const tokioSites = {
             "services": ["shop", "anime"],
             "distance": "medium",
             "description": "Jimbocho es el paraíso de los libros en Tokio, con numerosas librerías antiguas y tiendas de libros usados que atraen a los amantes de la lectura y la cultura.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/ipZ9agf8giWVQggo9"
         },
         {
             "name": "Piss Alley",
@@ -200,7 +200,7 @@ const tokioSites = {
             "services": ["food", "nightlife"],
             "distance": "medium",
             "description": "Piss Alley en Shinjuku es famoso por sus pequeños restaurantes y bares tradicionales japoneses, ofreciendo una auténtica experiencia culinaria.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/3K4H8YzwzLAeH7Da8"
         },
         {
             "name": "Menya Musashi",
@@ -208,7 +208,7 @@ const tokioSites = {
             "services": ["food", "restaurant"],
             "distance": "medium",
             "description": "Menya Musashi es conocido por su ramen tsukemen, donde los fideos se sirven por separado para mojar en caldo espeso y sabroso. Es una experiencia única para los amantes del ramen.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/wh4s5BH9HWnTRcT27"
         },
         {
             "name": "Sushi Saito",
@@ -216,7 +216,7 @@ const tokioSites = {
             "services": ["food", "restaurant"],
             "distance": "medium",
             "description": "Sushi Saito es uno de los mejores restaurantes de sushi en Tokio, dirigido por el famoso chef Takashi Saito. Es conocido por su sushi meticulosamente preparado con ingredientes frescos.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/RVyodrBvN8LC1xup6"
         },
         {
             "name": "Sumibiyakiniku Nakahara",
@@ -224,7 +224,7 @@ const tokioSites = {
             "services": ["food", "restaurant"],
             "distance": "medium",
             "description": "Sumibiyakiniku Nakahara es famoso por su yakiniku, carne japonesa a la parrilla estilo coreano. Utilizan carne wagyu de alta calidad y ofrecen una experiencia gastronómica excepcional.",
-            "maps" : ""
+            "maps" : "https://maps.app.goo.gl/CEmL8SXJMjTkcDDt6"
         }
     ]
 };
